@@ -10,9 +10,12 @@ Atributos:
 ---------
 
 * Domicílios:
+
   * Número de moradores (NP),
   * ...
+  
 * Indivíduos:
+
   * Sexo (SEX),
   * ...
 
@@ -20,9 +23,11 @@ Download:
 ---------
 
 * Download da base de domicílios sintéticos: 
+
   * RMSP apenas SP: synthetic_households1.csv (156 MB)
   * RMSP exc. SP: synthetic_households2.csv (XXX MB)
 
 * Download da base de indivíduos sintéticos:
+
   * RMSP apenas SP: synthetic_persons1.csv (396 MB)
   * RMSP exc. SP: synthetic_persons2.csv (XXX MB)
