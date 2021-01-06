@@ -22,5 +22,4 @@ Conteúdo
 .. toctree::
    :maxdepth: 2
    
-   index
    tutorial
