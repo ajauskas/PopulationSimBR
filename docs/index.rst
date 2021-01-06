@@ -22,5 +22,7 @@ Conteúdo
 .. toctree::
    :maxdepth: 2
    
+   guia
+   codigos
    tutorial
    resultados_rmsp
