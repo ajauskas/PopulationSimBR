@@ -4,17 +4,17 @@ Sobre o projeto
 
 PopulationSimBR: a extensão do PopulationSim para o Brasil
 ---------
-O PopulationSimBR é um pacote de de códigos criado para facilitar a geração de populações sintéticas para regiões no Brasil utilizando o `PopulationSim <https://activitysim.github.io/populationsim/index.html>`__.
+O PopulationSimBR é um pacote de códigos criado para facilitar a geração de populações sintéticas para regiões no Brasil através do `PopulationSim <https://activitysim.github.io/populationsim/index.html>`__.
 
-Os códigos realizam a extração e tratamento dos dados de interesse (áreas e variáveis) dos arquivos do Censo 2010 do IBGE.
-Além de dados do Censo, o pacote também contém códigos para realizar a extração de (i) resultados da base de dados da RAIS 2010 e (ii) das tabelas de totais da Pesquisa Origem-Destino de São Paulo de 2017.
+Os códigos realizam a extração e tratamento dos dados de interesse (para os municípios e atributos dos domicílios e indivíduos) dos arquivos do Censo 2010 do IBGE.
+Além de dados do Censo, o pacote também contém códigos para realizar a extração e tratamento (i) de resultados da base de dados da RAIS 2010 e (ii) das tabelas de totais da `Pesquisa Origem e Destino 2017 de São Paulo <http://www.metro.sp.gov.br/pesquisa-od/>`__.
 
 Também são disponibilizados códigos para a validação da população sintética gerada.
 
 
-Mais informações sobre este projeto podem ser encontradas na dissertação de mestrado em que ele foi desenvolvido:
+Mais informações sobre este o PopulationSimBR podem ser encontradas na dissertação de mestrado em que ele foi desenvolvido:
 
-Ajauskas, R. (2021). Procedimento para geração de população sintética com base em dados disponíveis no Brasil. Dissertação (Mestrado). Universidade de São Paulo `(ainda não disponível, link para teste) <https://drive.google.com/file/d/1eVe7rWJsenWkjA7zl08PKHmhH2Dkr-VA/view?usp=sharing>`__.
+Ajauskas, R. (2021). Procedimento para geração de população sintética com base em dados disponíveis no Brasil. Dissertação (Mestrado). Universidade de São Paulo `(Link para download ainda não disponível) <https://drive.google.com/file/d/1eVe7rWJsenWkjA7zl08PKHmhH2Dkr-VA/view?usp=sharing>`__.
 
 Conteúdo
 --------
