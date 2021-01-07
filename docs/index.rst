@@ -1,9 +1,5 @@
-Sobre o projeto
-=========
-
-
 PopulationSimBR: a extensão do PopulationSim para o Brasil
----------
+=========
 O PopulationSimBR é um pacote de códigos criado para facilitar a geração de populações sintéticas para regiões no Brasil através do `PopulationSim <https://activitysim.github.io/populationsim/index.html>`__.
 
 Os códigos realizam a extração e tratamento dos dados de interesse (para os municípios e atributos dos domicílios e indivíduos) dos arquivos do `Censo 2010 do IBGE <https://www.ibge.gov.br/estatisticas/sociais/saude/9662-censo-demografico-2010.html?=&t=o-que-e>`_.
