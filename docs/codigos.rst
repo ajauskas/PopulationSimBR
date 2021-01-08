@@ -20,6 +20,7 @@ O código em Python aAreaSintetizar gera o arquivo de entrada “geo_cross_walk.
   350390105000006,3503901003002,3503901
   
 **Municipios.yaml: Arquivo contendo lista de municípios a sintetizar**
+
 De forma a facilitar o trabalho do usuário e evitar eventuais alterações involuntárias do código, um arquivo de extensão .yaml é utilizado para a identificação dos municípios de interesse para a sintetização. A extensão de .yaml pode ser visualizada com um software de bloco de notas comum e tem como premissa a exibição de fácil leitura de dados de entrada: os diferentes itens de uma lista são indicados através de "bullet points", sem a necessidade de colchetes ou aspas.
 
 Um exemplo de arquivo de entrada é apresentado a seguir, contendo as 4 variáveis mínimas: estado (nome do estado por extenso), abreviacao_UF (abreviação oficial da unidade federativa), tag_rmsp (indica se os municípios fazem parte da RMSP – 1 – ou não – 0) e municípios (lista de municípios a gerar população sintética).
