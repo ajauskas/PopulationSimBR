@@ -1,4 +1,4 @@
-Tutorial: aplicação na região oeste do Acre
+Tutorial: aplicação para oeste do Acre
 =========
 
 Introdução
@@ -9,6 +9,9 @@ O tutorial para a utilização da extensão do PopulationSim no Brasil – assim
 
 Passo a passo
 ---------
+**Intro**
+
+O tempo de processamento, em computador com processador Intel Core i5-3470 CPU @ 3,20 GHz e 12 GB foi de 4 minutos.
 
 Resultados e Validação
 ---------
