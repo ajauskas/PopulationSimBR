@@ -52,13 +52,13 @@ Atributos disponíveis na população sintética gerada, tanto controlados como 
 Downloads
 ---------
 
-* Download da base de **domicílios** sintéticos: 
+* Download das bases de **domicílios** sintéticos: 
 
-  * RMSP apenas SP: synthetic_households1.csv (156 MB)
-  * RMSP exc. SP: synthetic_households2.csv (XXX MB)
+  * RMSP apenas SP: synthetic_households1.csv (3.000.000 domicílios, 156 MB)
+  * RMSP exc. SP: synthetic_households2.csv (3.000.000 domicílios, XXX MB)
 
 
-* Download da base de **indivíduos** sintéticos:
+* Download das bases de **indivíduos** sintéticos:
 
-  * RMSP apenas SP: synthetic_persons1.csv (396 MB)
-  * RMSP exc. SP: synthetic_persons2.csv (XXX MB)
+  * RMSP apenas SP: synthetic_persons1.csv (10.000.000 indivíduos, 396 MB)
+  * RMSP exc. SP: synthetic_persons2.csv (9.000.000 indivíduos, XXX MB)
