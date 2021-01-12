@@ -10,6 +10,8 @@ Foi gerada apenas para os domicílios particulares da RMSP (excluídos domicíli
 Atributos
 ---------
 
+Atributos disponíveis na população sintética gerada, tanto controlados como não controlados.
+
 * Domicílios:
 
   * Número de moradores (NP),
@@ -19,6 +21,24 @@ Atributos
 
   * Sexo (SEX),
   * ...
+
+* Em ambas as bases:
+
+  * Id do domicílio (household_id)
+  * Área de ponderação (PUMA)
+  * Setor censitário (TAZ)
+  * 
+  
++-------------------------------------+----------------------------------------------------------------------+
+| Código do atributo                  | Descrição                                                          |
++=====================================+======================================================================+
+| household_id        | Id do domicílio |
++-------------------------------------+----------------------------------------------------------------------+
+| PUMA                   | Área de ponderação                                           |
++-------------------------------------+----------------------------------------------------------------------+
+| TAZ                 | Setor censitário                                            |
++-------------------------------------+----------------------------------------------------------------------+
+
 
 Downloads
 ---------
