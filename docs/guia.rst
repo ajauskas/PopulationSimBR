@@ -8,3 +8,8 @@ Instalação do Anaconda
 Estrutura de pastas
 -----------
 ... incluindo, além de conteúdo do PopulationSim, a pasta ``/bruto``
+
+
+Uso da extensão para aplicação no Brasil
+-----------
+.. image:: images/FluxoDeAcoes.png
