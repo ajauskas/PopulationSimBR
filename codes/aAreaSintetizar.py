@@ -13,7 +13,7 @@ configs = 'PopulationSimBR/configs/'
 arqcomp = "comp.csv"
 arqmunsc = "Áreas de Ponderação por UF e Município.xls"
 
-parte = 4
+parte = 5
 arqmun = "municipios"+str(parte)+".yaml"
 
 """ Identificação dos municípios a sintetizar no arquivo configs/municipios.yaml """

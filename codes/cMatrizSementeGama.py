@@ -17,7 +17,7 @@ arqcomp = "geo_cross_walk.csv"
 arqmunsc = "Áreas de Ponderação por UF e Município.xls"
 configs = 'PopulationSimBR/configs/'
 
-parte = 7
+parte = 4
 arqmun = "municipios"+str(parte)+".yaml"
 
 """ Identificação dos municípios a sintetizar no arquivo configs/municipios.yaml """
@@ -65,7 +65,7 @@ dic2["tam"] = dic2["int"]+dic2["dec"]
 if tagrmsp == 0:
     mbasepes = pd.read_fwf(pasta+uf+arqpes, header=None, widths=dic2["tam"])
 if tagrmsp == 1: #caminho temporario
-    mbasepes = pd.read_fwf(r"D:\Users\rodrigo.ajauskas\Documents\Rodrigo Ajauskas 2020\ACADEMICO\Arquivos BR\Microdados SP2-RM"+"/"+arqpes, header=None, widths=dic2["tam"])
+    mbasepes = pd.read_fwf(r"D:\Data\r.ajauskas\Documents\Pessoal\Diss\IBGE-Micro\SP"+"/"+arqpes, header=None, widths=dic2["tam"])
 par = time.time()
 
 mbasepes.columns = dic2["var"]
@@ -115,7 +115,7 @@ dic["tam"] = dic["int"]+dic["dec"]
 if tagrmsp == 0:
     mbasedom = pd.read_fwf(pasta+uf+arqdom, header=None, widths=dic["tam"])
 if tagrmsp == 1:
-    mbasedom = pd.read_fwf(r"D:\Users\rodrigo.ajauskas\Documents\Rodrigo Ajauskas 2020\ACADEMICO\Arquivos BR\Microdados SP2-RM"+"/"+arqdom, header=None, widths=dic["tam"])
+    mbasedom = pd.read_fwf(r"D:\Data\r.ajauskas\Documents\Pessoal\Diss\IBGE-Micro\SP"+"/"+arqdom, header=None, widths=dic["tam"])
 mbasedom.columns = dic["var"]
 mbasedom["HHINCADJ"] = mbasedom["V6532"]/(10**5) #TODO: (i) deixar automatico pelo decimal
 mbasedom["WGTP"] = mbasedom["V0010"]/(10**13) #TODO: (i) deixar automatico pelo decimal
@@ -203,7 +203,8 @@ mbasepes = pd.merge(mbasepes, hhhhnum, how='left', on='hhnum2') #corresp id e co
 mbasepes = mbasepes.apply(pd.to_numeric, errors='coerce', downcast='integer') #XXX
 mbasepes = mbasepes[mbasepes.columns.drop(list(mbasepes.filter(regex='REND')))] #exclui RELP na tabela de pessoas
 mbasepes = mbasepes[~np.isnan(mbasepes["hhnum"])] #XXX verificar se funciona - exclui pessoas de domicilios sem hhnum (isto é, de domicílios que não são particulares)
-mbasepes.to_csv(data+'/seed_persons.csv', index=False)
+print(mbasepes)
+mbasepes.to_csv(data+'seed_persons.csv', index=False)
 mbasepes.columns = mbasepes.columns.get_level_values(0) #XXX
 mbasepes.info()
 
@@ -211,7 +212,7 @@ mbasepes.info()
 dic.to_csv(auxi+'/dicD.csv')
 #mbasedom = mbasedom.astype({"AGEHOH": "int64"}) 
 mbasedom.columns = mbasedom.columns.get_level_values(0) #XXX
-mbasedom.to_csv(data+'/seed_households.csv', index=False)
+mbasedom.to_csv(data+'seed_households.csv', index=False)
 mbasedom = mbasedom.apply(pd.to_numeric, errors='coerce', downcast='integer') #XXX
 mbasedom.info()
 

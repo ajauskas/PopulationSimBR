@@ -16,7 +16,7 @@ pastacomb = "/VarCombinadas"
 parte = 4
 arqmun = "municipios"+str(parte)+".yaml"
 
-varcombinadas = 1 #Procedimento: teste para variáveis não controladas
+varcombinadas = 0 #Procedimento: teste para variáveis não controladas
 
 """ Identificação dos municípios a sintetizar no arquivo configs/municipios.yaml """
 import yaml
@@ -25,9 +25,9 @@ listamunicipios = abrirmunicipios["municipios"]
 abruf = abrirmunicipios["abreviacao_uf"]
 tagrmsp = abrirmunicipios["tag_rmsp"]
 if tagrmsp == 1: #temporario
-    pasta = "D:/Users/rodrigo.ajauskas/Documents/Rodrigo Ajauskas 2020/ACADEMICO/Arquivos BR/IBGE-AgSC/SP1/CSV/"    
+    pasta = "D:/Data/r.ajauskas/Documents/Pessoal/Diss/IBGE-AgSC/SP1/CSV/"
     if listamunicipios[0] != "São Paulo":
-        pasta = "D:/Users/rodrigo.ajauskas/Documents/Rodrigo Ajauskas 2020/ACADEMICO/Arquivos BR/IBGE-AgSC/SP2/CSV/"
+        pasta = "D:/Data/r.ajauskas/Documents/Pessoal/Diss/IBGE-AgSC/SP2/CSV/"
     
 """ Continuação da seção de nome de pastas e arquivos """
 c = ".csv"
@@ -92,14 +92,28 @@ res2 = pd.read_csv(pasta+ufbarra+arqres2, sep=',', engine='python')
 if listamunicipios[0] == "São Paulo": #o arquivo "responsavel02_sp2.csv" utiliza "," como separador a
     res2 = pd.read_csv(pasta+ufbarra+arqres2, sep=';', engine='python')
 
+
 varini = 2 #variavel inicial a ser extraida, inclusive
+varfin = 92 #variavel final a ser extraida, inclusive
+#estrutura: classes de 5 em 5 anos, desagrupadas por 5 cor ou raça
+lista=[]
+for i in range(varini,varfin+1):
+    if i < 10:
+        var = "00"+str(i)
+    if (i >= 10 and i < 100):
+        var = "0"+str(i)
+    if i > 100:
+        var = i
+    lista.append("V"+str(var))
+    
+"""varini = 2 #variavel inicial a ser extraida, inclusive
 varfin = 92 #variavel final a ser extraida, inclusive
 a = ["V"]*(varfin-varini+1)
 z = ["0"]*(varfin-varini+1)
 b = range(varini,varfin+1)
 b = list(map(str, b))
 b = ["0"+cod if len(cod)==1 else cod for cod in b]    
-lista = [i + j + k for i, j, k in zip(a, z, b)] 
+lista = [i + j + k for i, j, k in zip(a, z, b)] """
 res2 = res2[["Cod_setor"]+lista]
 
 res2 = res2.apply(pd.to_numeric, errors='coerce')

@@ -101,4 +101,5 @@ ajuste["EDUC3_"] = np.floor(ajuste["EDUC3"]*ajuste["FatRedPOP"])
 ajuste["EDUC4_"] = np.floor(ajuste["EDUC4"]*ajuste["FatRedPOP"])
 print(ajuste)
 
-ajuste.to_csv(data+"control_totals_meta.csv", index=False, encoding="latin")
+ajuste.to_csv(data+"control_totals_meta.csv", index=False)
+#ajuste.to_csv(data+"control_totals_meta.csv", index=False, encoding="latin")
