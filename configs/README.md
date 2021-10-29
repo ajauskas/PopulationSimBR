@@ -1,0 +1,1 @@
+Arquivos a adicionar na `pasta da estrutura <https://activitysim.github.io/populationsim/application_configuration.html#configuration>`__ do PopulationSim (/PopulationSim), junto aos arquivos do próprio programa.
