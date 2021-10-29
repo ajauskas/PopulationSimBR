@@ -7,6 +7,8 @@ Além de dados do Censo, o pacote também contém códigos para realizar a extra
 
 Também são disponibilizados códigos para a validação da população sintética gerada.
 
+O PopulationSimBR conta com um repositório hospedado no GitHub, disponível em https://github.com/ajauskas/PopulationSimBR
+
 Conteúdo
 --------
 
