@@ -24,4 +24,4 @@ Conteúdo
 
 Mais informações sobre o PopulationSimBR podem ser encontradas na dissertação de mestrado em que ele foi desenvolvido:
 
-Ajauskas, R. (2021). Procedimento para geração de população sintética com base em dados disponíveis no Brasil. Dissertação (Mestrado). Universidade de São Paulo `(Link para download ainda não disponível) <https://drive.google.com/file/d/1eVe7rWJsenWkjA7zl08PKHmhH2Dkr-VA/view?usp=sharing>`__.
+Ajauskas, R. (2021). Procedimento para geração de população sintética com base em dados disponíveis no Brasil. Dissertação (Mestrado). Universidade de São Paulo `(Link para download) <https://www.teses.usp.br/teses/disponiveis/3/3138/tde-04112021-120207/publico/RodrigoAjauskasCorr21.pdf>`__.
