@@ -10,7 +10,7 @@ Também são disponibilizados códigos para a validação da população sintét
 O PopulationSimBR conta com um repositório hospedado no GitHub, disponível em https://github.com/ajauskas/PopulationSimBR
 
 A documentação deste projeto encontra-se incompleta.
-Caso se interesse pelo uso do PopulationSim no Brasil, entre em `contato comigo <https://www.linkedin.com/in/ajauskas/>` e eu ficarei feliz em auxiliá-l@ :)
+Caso se interesse pelo uso do PopulationSim no Brasil, entre em `contato comigo <https://www.linkedin.com/in/ajauskas/>`_ e eu ficarei feliz em auxiliá-l@ :)
 
 Conteúdo
 --------
